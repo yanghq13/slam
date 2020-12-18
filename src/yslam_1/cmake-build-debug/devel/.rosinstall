@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/itcast/CLionProjects/src/yslam_1/cmake-build-debug/devel/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/itcast/gitee/yslam/install
+
+Name: yslam_1
+Description: Description of yslam_1
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lyslam_1
+Requires: roscpp rosmsg rospy

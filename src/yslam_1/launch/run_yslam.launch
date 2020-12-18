@@ -1,0 +1,15 @@
+<launch>
+    <!--启动yslam-->
+    <node pkg="yslam_1" type="rosbag_regist"
+          name="rosbag_regist" output="screen">
+    </node>
+    <!--启动rviz-->
+    <node pkg="rviz" type="rviz" name="rviz"
+          args="-d $(find yslam_1)/rviz/rviz.rviz">
+    </node>
+    <!--启动rosbag-->
+    <node pkg="rosbag" type="play" name="play"
+          output="screen"
+          args="--clock $(find yslam_1)/bag/nsh_indoor_outdoor.bag">
+    </node>
+</launch>
