@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/itcast/gitee/yslam/src/yslam_1/src/rosbag_regist.cpp" "/home/itcast/gitee/yslam/build/yslam_1/CMakeFiles/rosbag_regist.dir/src/rosbag_regist.cpp.o"
+  "/home/itcast/github/yslam/src/yslam_1/src/rosbag_regist.cpp" "/home/itcast/github/yslam/build/yslam_1/CMakeFiles/rosbag_regist.dir/src/rosbag_regist.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

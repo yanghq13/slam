@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "yslam_1")
 set(yslam_1_VERSION "0.0.0")
-set(yslam_1_MAINTAINER "itcast <itcast@todo.todo>")
+set(yslam_1_MAINTAINER "itcast <yanghq13@163.com>")
 set(yslam_1_PACKAGE_FORMAT "2")
 set(yslam_1_BUILD_DEPENDS "roscpp" "rosmsg" "rospy")
 set(yslam_1_BUILD_EXPORT_DEPENDS "roscpp" "rosmsg" "rospy")
