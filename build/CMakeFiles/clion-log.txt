@@ -1,0 +1,4 @@
+Cannot generate into /home/itcast/github/slam/build
+It is already used for project /home/itcast/github/slam/src
+
+Please either delete it manually or select another generation directory

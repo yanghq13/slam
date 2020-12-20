@@ -1,0 +1,8 @@
+prefix=/home/itcast/github/yslam/src/yslam/cmake-build-debug/devel
+
+Name: yslam
+Description: Description of yslam
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

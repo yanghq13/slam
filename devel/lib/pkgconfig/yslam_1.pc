@@ -1,8 +1,8 @@
-prefix=/home/itcast/github/yslam/devel
+prefix=/home/itcast/github/slam/devel
 
 Name: yslam_1
 Description: Description of yslam_1
 Version: 0.0.0
-Cflags: -I/home/itcast/github/yslam/src/yslam_1/include
+Cflags: -I/home/itcast/github/slam/src/yslam_1/include
 Libs: -L${prefix}/lib -lyslam_1
 Requires: roscpp rosmsg rospy

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/itcast/github/yslam/src/yslam_1/src/rosbag_regist.cpp
+/home/itcast/github/slam/src/yslam_1/src/rosbag_regist.cpp
 ros/ros.h
 -
 sensor_msgs/PointCloud2.h

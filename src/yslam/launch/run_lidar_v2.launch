@@ -1,0 +1,15 @@
+<launch>
+    <!--启动yslam-->
+    <node pkg="yslam" type="lidar_v2"
+          name="lidar_v2" output="screen">
+    </node>
+    <!--启动rviz-->
+    <node pkg="rviz" type="rviz" name="rviz"
+          args="-d $(find yslam)/rviz/rviz_v2.rviz">
+    </node>
+    <!--启动rosbag-->
+    <node pkg="rosbag" type="play" name="play"
+          output="screen"
+          args="--clock $(find yslam)/bag/nsh_indoor_outdoor.bag">
+    </node>
+</launch>

@@ -1,4 +1,4 @@
-prefix=/home/itcast/github/yslam/install
+prefix=/home/itcast/github/slam/install
 
 Name: yslam_1
 Description: Description of yslam_1

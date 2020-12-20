@@ -1,2 +1,2 @@
-yslam_1
--DCATKIN_DEVEL_PREFIX=/home/itcast/github/yslam/devel -DCMAKE_INSTALL_PREFIX=/home/itcast/github/yslam/install -G Unix Makefiles
+yslam
+-DCATKIN_DEVEL_PREFIX=/home/itcast/github/slam/devel -DCMAKE_INSTALL_PREFIX=/home/itcast/github/slam/install -G Unix Makefiles

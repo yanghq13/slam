@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: yslam
+Description: Description of yslam
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lyslam
+Requires: roscpp rosmsg rospy

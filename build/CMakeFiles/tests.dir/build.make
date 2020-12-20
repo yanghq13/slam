@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/itcast/github/yslam/src
+CMAKE_SOURCE_DIR = /home/itcast/github/slam/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/itcast/github/yslam/build
+CMAKE_BINARY_DIR = /home/itcast/github/slam/build
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/itcast/github/yslam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/itcast/github/yslam/src /home/itcast/github/yslam/src /home/itcast/github/yslam/build /home/itcast/github/yslam/build /home/itcast/github/yslam/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/itcast/github/slam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/itcast/github/slam/src /home/itcast/github/slam/src /home/itcast/github/slam/build /home/itcast/github/slam/build /home/itcast/github/slam/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 
