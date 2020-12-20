@@ -5,25 +5,34 @@
 
 需要安装ros，pcl
 
-需要下载nsh_indoor_outdoor.bag，将该文件移动到yslam/src/yslam_1/bag
+需要下载nsh_indoor_outdoor.bag，将该文件移动到yslam/src/yslam/bag
 
 需要克隆
 
 ```bash
-git clone https://github.com/yanghq13/yslam.git
+git clone https://github.com/yanghq13/slam.git
 ```
 
 # 2.运行
 
-打开一个终端
+打开一个终端，运行v1
 
 ```
-roslaunch yslam_1 run_yslam.launch
+roslaunch yslam run_lidar.launch
+```
+
+打开一个终端，运行v2
+
+```
+roslaunch yslam run_lidar_v2.launch
 ```
 
 # 3.效果
 
-成功运行之后，会看到这样的画面
+成功运行v1之后，会看到这样的画面
 
-![image-20201218171424057](/home/itcast/snap/typora/32/.config/Typora/typora-user-images/image-20201218171424057.png)
+![rawsEt.png](https://s3.ax1x.com/2020/12/20/rawsEt.md.png)
 
+成功运行v2之后，会看到这样的画面
+
+![rawoEq.png](https://s3.ax1x.com/2020/12/20/rawoEq.md.png)
