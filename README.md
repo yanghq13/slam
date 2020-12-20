@@ -31,8 +31,8 @@ roslaunch yslam run_lidar_v2.launch
 
 成功运行v1之后，会看到这样的画面
 
-![add image](https://github.com/yanghq13/slam/raw/master/image/v1.png)
+![](https://github.com/yanghq13/slam/raw/master/image/v1.png)
 
 成功运行v2之后，会看到这样的画面
 
-![add image](https://github.com/yanghq13/slam/raw/master/image/v2.png)
+![](https://github.com/yanghq13/slam/raw/master/image/v2.png)
